@@ -1,0 +1,9 @@
+controller:
+  extraVolumeMounts:
+    - name: dev-static-content
+      mountPath: /usr/share/nginx/html
+      readOnly: true
+  extraVolumes:
+    - name: dev-static-content
+      configMap:
+        name: dev-static-content

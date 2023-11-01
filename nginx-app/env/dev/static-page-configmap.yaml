@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: dev-static-content
+data:
+  index.html: |
+    <html><p>Hello world</p></html>
