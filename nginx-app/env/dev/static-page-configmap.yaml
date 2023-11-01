@@ -4,4 +4,4 @@ metadata:
   name: dev-static-content
 data:
   index.html: |
-    <html><p>Hello world</p></html>
+    <html><p>This is DEV env.</p></html>

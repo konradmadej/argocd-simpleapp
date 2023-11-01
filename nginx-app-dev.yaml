@@ -19,5 +19,5 @@ spec:
       helm:
         valueFiles:
           - $values/nginx-app/env/dev/nginx-helm-values.yaml
-          - $values/nginx-app/env/dev/image-version.yaml
+          - $values/nginx-app/env/dev/nginx-helm-values.yaml
   project: default
